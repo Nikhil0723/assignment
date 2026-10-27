@@ -1,0 +1,38 @@
+ @import "tailwindcss";
+
+:root {
+  --page-bg: #ffffff;
+  --accent: #4f925b;
+  --accent-dark: #3d7d49;
+  --accent-soft: #a5c9a8;
+  --accent-pale: #f0f7f0;
+  --text-main: #555555;
+  --text-dark: #333333;
+  --text-muted: #888888;
+  --surface: #ffffff;
+  --border: #e6e6e6;
+  --image-placeholder: #f2f4f1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Hide the scrollbar while keeping scrolling enabled */
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  background: var(--page-bg);
+}
+
